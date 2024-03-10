@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "sample nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs"
+  ],
+  "author": "Simon Ngang",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.26.1",
+    "fastify-cli": "^6.1.1",
+    "serve": "^14.2.1"
+  }
+}
