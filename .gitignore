@@ -1,5 +1,10 @@
+# root project
 node_modules
 
+# my-cli
+my-cli/node_modules
+
+# mock-srv
 # Logs
 mock-srv/logs
 mock-srv/*.log
