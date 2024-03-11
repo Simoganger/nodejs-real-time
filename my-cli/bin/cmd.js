@@ -1,20 +1,10 @@
 #!/usr/bin/env node
 
 import got from "got";
-import { Command } from "commander";
-
-const program = new Command();
 
 const API = "http://localhost:3000";
 
-program
-    .name("my-cli")
-    .description("Back office for my app")
-    .version("1.0.0");
-
-program.parse();
-
-/*const usage = (msg = "Back office for my app") => {
+const usage = (msg = "Back office for my app") => {
     console.log(`\n${msg}\n`);
     console.log("Usage: cmd <ID> <AMOUNT>");
 };
@@ -51,4 +41,4 @@ try {
     // if there is an error, log it to the console and exit
     console.log(err.message);
     process.exit(1);
-}*/
+}
